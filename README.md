@@ -25,7 +25,7 @@ El formalismo se basa en una representación de la mecánica clásica en un espa
 
 El código de este repositorio realiza los siguientes análisis numéricos:
 1.  **Validación del Modelo:** Se verifica que la dinámica, la retro-reacción y el espectro del generador son independientes de $\kappa$ para $\kappa > 0$ en el caso sin acoplo, y convergen al límite de KvN ($\kappa=0$).
-2.  **Análisis del Conmutador Mixto:** Se demuestra numéricamente que el valor esperado del conmutador unificado satisface $\langle[\hat{X}_{mix}, \hat{P}_{mix}]\rangle = i\hbar\kappa$, y se analiza cómo la validez de esta relación depende del tamaño de la base de Hilbert truncada.
+2.  **Análisis del Conmutador Mixto:** Se demuestra numéricamente que el valor esperado del conmutador unificado satisface $\langle[ X_{mix}, P_{mix}]\rangle = i\hbar\kappa$, y se analiza cómo la validez de esta relación depende del tamaño de la base de Hilbert truncada.
 3.  **Análisis de Retro-reacción:** Se estudia la retro-reacción como un artefacto numérico del truncamiento de la base en el límite clásico ($\kappa=0$), mostrando su convergencia a cero al aumentar el tamaño de la base.
 4.  **Estudio de Observables y Correlaciones:** Se analiza la evolución de diversos valores esperados (posiciones, momentos, operadores cuadráticos) y de la **covarianza** $Cov(\hat{X}_{mix}, \hat{X}_Q)$ en función del tiempo y de $\kappa$.
 5.  **Cuantificación del Entrelazamiento:** Se mide el entrelazamiento entre los subsistemas clásico y cuántico a través de la pureza de la matriz densidad reducida, $\mathcal{P} = \text{Tr}(\rho_C^2)$.
